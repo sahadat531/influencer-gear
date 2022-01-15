@@ -468,6 +468,13 @@ Hero Section Styling End
 	.collection img {
 		width: 100%;
 	}
+	.cta-container {
+		flex-direction: column;
+	}
+	.image-box,
+	.content {
+		width: 100%;
+	}
 }
 
 @media screen and (min-width: 1200px) {
