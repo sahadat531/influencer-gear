@@ -1,0 +1,130 @@
+/* Global Styling */
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+/*-------------------------------------- 
+Header Section Styling Start  
+-----------------------------------------*/
+
+header,
+.hero {
+	padding-top: 50px;
+	padding-left: 120px;
+	padding-right: 120px;
+}
+.row {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.logo h1 {
+	font-family: "Poppins", sans-serif;
+	font-weight: bold;
+	font-size: 24px;
+	line-height: 36px;
+	color: #3a3a3a;
+}
+.nav {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.nav .menu a {
+	font-family: "Poppins", sans-serif;
+	font-weight: 600;
+	font-size: 16px;
+	line-height: 24px;
+	color: #3a3a3a;
+	text-decoration: none;
+	margin-right: 34px;
+}
+.nav .menu a:hover {
+	background-color: #e02c6d;
+	padding: 10px 25px;
+	color: whitesmoke;
+	transition: color 0.4s ease-in-out;
+}
+
+.nav .nav-icon i {
+	background-color: #fdc7db6e;
+	color: #3a3a3a;
+	padding: 10px;
+	border-radius: 50%;
+	margin-right: 27px;
+}
+.nav-icon .fa-search {
+	font-size: 16px;
+}
+
+/*-------------------------------------- 
+Header Section Styling End
+-----------------------------------------*/
+
+/* ------------------------------------------
+Hero Section Styling Start  
+---------------------------------------------*/
+.hero-text h1 {
+	font-family: "Poppins", sans-serif;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 52px;
+	line-height: 70px;
+	color: #3a3a3a;
+	width: 582px;
+	margin-bottom: 16px;
+}
+.hero-text p {
+	font-family: "Poppins", sans-serif;
+	font-style: normal;
+	font-weight: 600;
+	font-size: 16px;
+	line-height: 24px;
+	color: #3a3a3a;
+	width: 505px;
+	margin-bottom: 30px;
+}
+
+.hero-text a {
+	width: 196px;
+	height: 44px;
+	padding: 10px 24px;
+	background: #e02c6d;
+	border-radius: 41px;
+	text-decoration: none;
+	font-family: "Poppins", sans-serif;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 16px;
+	line-height: 24px;
+	color: #ffffff;
+	display: inline-block;
+	transition: transform 0.4s ease-in-out;
+}
+
+.hero-text .hero-btn:hover {
+	background-color: #3a3a3a;
+	transform: scale(1.05);
+}
+
+.hero-text a i {
+	width: 24px;
+	height: 24px;
+	margin-left: 6px;
+	display: inline;
+}
+
+.hero-image {
+	width: 475px;
+	height: 475px;
+	transition: transform 0.4s ease-in-out;
+}
+.hero-image:hover {
+	transform: scale(1.05);
+}
+/* ------------------------------------------
+Hero Section Styling End  
+---------------------------------------------*/
